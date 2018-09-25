@@ -49,3 +49,10 @@ body {
     transform: perspective(1000px) rotateY(0deg);
     z-index: 1;
 }
+
+@media (max-width: 560px) {
+	.container  {
+	    width: 320px;
+	    height: 213px;
+	}
+}
